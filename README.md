@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +22,26 @@
             flex-direction: column;
             height: 100vh;
             text-align: center;
+        }
+
+        /* Intestazione */
+        header {
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            padding: 40px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 0;
         }
 
         /* Logo */
@@ -56,4 +76,36 @@
         }
 
         /* Layout per desktop */
-        @m
+        @media (min-width: 768px) {
+            .buttons {
+                gap: 30px;
+            }
+
+            .button {
+                width: 280px;
+                font-size: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Intestazione -->
+    <header>
+        <h1>Benvenuti alla Fiera Walden</h1>
+        <p>Scopri il nostro mondo di mobili unici e funzionali</p>
+    </header>
+
+    <!-- Logo -->
+    <img src="logo.webp" alt="Walden Logo" class="logo">
+
+    <!-- Pulsanti -->
+    <div class="buttons">
+        <a href="URL_DEL_SITO" class="button">Visita il nostro Sito</a>
+        <a href="URL_FACEBOOK" class="button">Seguici su Facebook</a>
+        <a href="URL_INSTAGRAM" class="button">Seguici su Instagram</a>
+    </div>
+
+</body>
+</html>
