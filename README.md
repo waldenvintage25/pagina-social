@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Walden - Rivendita Mobili</title>
+    <title>Benvenuti alla Fiera Walden</title> <!-- Titolo della pagina nel browser -->
     <style>
         /* Reset base */
         body, html {
@@ -24,10 +24,30 @@
             text-align: center;
         }
 
+        /* Intestazione */
+        header {
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            padding: 40px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
         /* Logo */
         .logo {
+            margin-top: -40px;
             width: 250px;
-            margin-top: 20px;
         }
 
         /* Sezione pulsanti */
@@ -70,6 +90,12 @@
     </style>
 </head>
 <body>
+
+    <!-- Intestazione -->
+    <header>
+        <h1>Benvenuti alla Fiera Walden</h1>
+        <p>Scopri il nostro mondo di mobili unici e funzionali</p>
+    </header>
 
     <!-- Logo -->
     <img src="logo.webp" alt="Walden Logo" class="logo">
