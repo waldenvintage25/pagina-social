@@ -1,4 +1,3 @@
-
 <html>
 <head>
   <meta charset="UTF-8">
@@ -19,7 +18,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: start;
+      justify-content: center;
       text-align: center;
       min-height: 100vh;
     }
@@ -48,15 +47,18 @@
     .logo {
       margin-top: 20px;
       width: 250px;
+      max-width: 100%;
     }
 
     /* Sezione pulsanti */
     .buttons {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       gap: 20px;
       margin-top: 40px;
+      width: 100%;
+      max-width: 400px;
     }
 
     .button {
@@ -67,7 +69,7 @@
       background-color: #008CBA;
       border-radius: 8px;
       transition: background 0.3s ease;
-      width: 250px;
+      width: 100%;
       text-align: center;
     }
 
@@ -78,10 +80,12 @@
     /* Layout per desktop */
     @media (min-width: 768px) {
       .buttons {
+        flex-direction: row;
         gap: 30px;
+        max-width: none;
       }
       .button {
-        width: 280px;
+        width: 250px;
         font-size: 20px;
       }
     }
