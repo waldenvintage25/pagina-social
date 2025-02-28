@@ -24,20 +24,6 @@
             text-align: center;
         }
 
-        /* Intestazione semplice */
-        header {
-            width: 100%;
-            padding: 20px 0;
-            background-color: #333;
-            color: #fff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            font-size: 2em;
-            margin: 0;
-        }
-
         /* Logo */
         .logo {
             width: 250px;
@@ -84,11 +70,6 @@
     </style>
 </head>
 <body>
-
-    <!-- Intestazione semplice -->
-    <header>
-        <h1>Benvenuti alla Fiera Walden</h1>
-    </header>
 
     <!-- Logo -->
     <img src="logo.webp" alt="Walden Logo" class="logo">
