@@ -31,6 +31,7 @@
             width: 100%;
             padding: 40px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
         }
 
         header h1 {
@@ -46,8 +47,8 @@
 
         /* Logo */
         .logo {
-            margin-top: -40px;
             width: 250px;
+            margin-bottom: 20px;
         }
 
         /* Sezione pulsanti */
@@ -76,36 +77,4 @@
         }
 
         /* Layout per desktop */
-        @media (min-width: 768px) {
-            .buttons {
-                gap: 30px;
-            }
-
-            .button {
-                width: 280px;
-                font-size: 20px;
-            }
-        }
-
-    </style>
-</head>
-<body>
-
-    <!-- Intestazione -->
-    <header>
-        <h1>Benvenuti alla Fiera Walden</h1>
-        <p>Scopri il nostro mondo di mobili unici e funzionali</p>
-    </header>
-
-    <!-- Logo -->
-    <img src="logo.png" alt="Walden Logo" class="logo">
-
-    <!-- Pulsanti -->
-    <div class="buttons">
-        <a href="URL_DEL_SITO" class="button">Visita il nostro Sito</a>
-        <a href="URL_FACEBOOK" class="button">Seguici su Facebook</a>
-        <a href="URL_INSTAGRAM" class="button">Seguici su Instagram</a>
-    </div>
-
-</body>
-</html>
+        @m
